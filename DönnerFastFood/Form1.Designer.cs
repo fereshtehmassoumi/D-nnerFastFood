@@ -32,6 +32,16 @@
             panel1 = new Panel();
             label5 = new Label();
             panel2 = new Panel();
+            label22 = new Label();
+            label21 = new Label();
+            label20 = new Label();
+            label19 = new Label();
+            label18 = new Label();
+            label17 = new Label();
+            comboBox11 = new ComboBox();
+            label15 = new Label();
+            pictureBox11 = new PictureBox();
+            checkBox11 = new CheckBox();
             comboBox5 = new ComboBox();
             label9 = new Label();
             pictureBox5 = new PictureBox();
@@ -55,6 +65,16 @@
             checkBox1 = new CheckBox();
             panel4 = new Panel();
             panel3 = new Panel();
+            label28 = new Label();
+            label27 = new Label();
+            label26 = new Label();
+            label25 = new Label();
+            label24 = new Label();
+            label23 = new Label();
+            comboBox12 = new ComboBox();
+            label16 = new Label();
+            pictureBox12 = new PictureBox();
+            checkBox12 = new CheckBox();
             comboBox10 = new ComboBox();
             label14 = new Label();
             pictureBox10 = new PictureBox();
@@ -78,24 +98,25 @@
             label4 = new Label();
             label3 = new Label();
             panel5 = new Panel();
-            comboBox11 = new ComboBox();
-            label15 = new Label();
-            pictureBox11 = new PictureBox();
-            checkBox11 = new CheckBox();
+            richTextBox1 = new RichTextBox();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -107,6 +128,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1326, 127);
             panel1.TabIndex = 0;
+            panel1.Paint += panel1_Paint;
             // 
             // label5
             // 
@@ -122,6 +144,12 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(label22);
+            panel2.Controls.Add(label21);
+            panel2.Controls.Add(label20);
+            panel2.Controls.Add(label19);
+            panel2.Controls.Add(label18);
+            panel2.Controls.Add(label17);
             panel2.Controls.Add(comboBox11);
             panel2.Controls.Add(label15);
             panel2.Controls.Add(pictureBox11);
@@ -151,8 +179,100 @@
             panel2.Dock = DockStyle.Left;
             panel2.Location = new Point(0, 127);
             panel2.Name = "panel2";
-            panel2.Size = new Size(423, 650);
+            panel2.Size = new Size(456, 650);
             panel2.TabIndex = 1;
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new Point(406, 511);
+            label22.Name = "label22";
+            label22.Size = new Size(47, 25);
+            label22.TabIndex = 29;
+            label22.Text = "10 €";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(397, 435);
+            label21.Name = "label21";
+            label21.Size = new Size(37, 25);
+            label21.TabIndex = 28;
+            label21.Text = "7 €";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(397, 351);
+            label20.Name = "label20";
+            label20.Size = new Size(37, 25);
+            label20.TabIndex = 27;
+            label20.Text = "8 €";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(397, 273);
+            label19.Name = "label19";
+            label19.Size = new Size(47, 25);
+            label19.TabIndex = 26;
+            label19.Text = "12 €";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(397, 187);
+            label18.Name = "label18";
+            label18.Size = new Size(47, 25);
+            label18.TabIndex = 25;
+            label18.Text = "15 €";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(397, 108);
+            label17.Name = "label17";
+            label17.Size = new Size(47, 25);
+            label17.TabIndex = 7;
+            label17.Text = "10 €";
+            // 
+            // comboBox11
+            // 
+            comboBox11.FormattingEnabled = true;
+            comboBox11.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
+            comboBox11.Location = new Point(338, 343);
+            comboBox11.Name = "comboBox11";
+            comboBox11.Size = new Size(42, 33);
+            comboBox11.TabIndex = 23;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Mongolian Baiti", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label15.ForeColor = Color.DarkOrchid;
+            label15.Location = new Point(170, 346);
+            label15.Name = "label15";
+            label15.Size = new Size(114, 25);
+            label15.TabIndex = 24;
+            label15.Text = "Sandwich";
+            // 
+            // pictureBox11
+            // 
+            pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
+            pictureBox11.Location = new Point(85, 334);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(72, 75);
+            pictureBox11.TabIndex = 22;
+            pictureBox11.TabStop = false;
+            // 
+            // checkBox11
+            // 
+            checkBox11.AutoSize = true;
+            checkBox11.Location = new Point(46, 343);
+            checkBox11.Name = "checkBox11";
+            checkBox11.Size = new Size(22, 21);
+            checkBox11.TabIndex = 21;
+            checkBox11.UseVisualStyleBackColor = true;
             // 
             // comboBox5
             // 
@@ -310,7 +430,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Monotype Corsiva", 14F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.DarkOrchid;
+            label2.ForeColor = Color.DarkBlue;
             label2.Location = new Point(139, 22);
             label2.Name = "label2";
             label2.Size = new Size(82, 34);
@@ -366,6 +486,16 @@
             // 
             // panel3
             // 
+            panel3.Controls.Add(label28);
+            panel3.Controls.Add(label27);
+            panel3.Controls.Add(label26);
+            panel3.Controls.Add(label25);
+            panel3.Controls.Add(label24);
+            panel3.Controls.Add(label23);
+            panel3.Controls.Add(comboBox12);
+            panel3.Controls.Add(label16);
+            panel3.Controls.Add(pictureBox12);
+            panel3.Controls.Add(checkBox12);
             panel3.Controls.Add(comboBox10);
             panel3.Controls.Add(label14);
             panel3.Controls.Add(pictureBox10);
@@ -395,11 +525,107 @@
             panel3.Size = new Size(368, 650);
             panel3.TabIndex = 2;
             // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new Point(22, 539);
+            label28.Name = "label28";
+            label28.Size = new Size(51, 25);
+            label28.TabIndex = 35;
+            label28.Text = "5.5 €";
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Location = new Point(22, 468);
+            label27.Name = "label27";
+            label27.Size = new Size(51, 25);
+            label27.TabIndex = 34;
+            label27.Text = "4.5 €";
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Location = new Point(22, 384);
+            label26.Name = "label26";
+            label26.Size = new Size(51, 25);
+            label26.TabIndex = 33;
+            label26.Text = "3.5 €";
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Location = new Point(22, 246);
+            label25.Name = "label25";
+            label25.Size = new Size(32, 25);
+            label25.TabIndex = 32;
+            label25.Text = "5€";
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Location = new Point(22, 167);
+            label24.Name = "label24";
+            label24.Size = new Size(51, 25);
+            label24.TabIndex = 31;
+            label24.Text = "3.5 €";
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new Point(22, 92);
+            label23.Name = "label23";
+            label23.Size = new Size(37, 25);
+            label23.TabIndex = 30;
+            label23.Text = "3 €";
+            // 
+            // comboBox12
+            // 
+            comboBox12.FormattingEnabled = true;
+            comboBox12.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
+            comboBox12.Location = new Point(75, 245);
+            comboBox12.Name = "comboBox12";
+            comboBox12.Size = new Size(42, 33);
+            comboBox12.TabIndex = 29;
+            comboBox12.SelectedIndexChanged += comboBox12_SelectedIndexChanged;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Mongolian Baiti", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label16.ForeColor = Color.DarkOrchid;
+            label16.Location = new Point(141, 245);
+            label16.Name = "label16";
+            label16.Size = new Size(55, 25);
+            label16.TabIndex = 30;
+            label16.Text = "Saft";
+            label16.Click += label16_Click;
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new Point(237, 223);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(59, 75);
+            pictureBox12.TabIndex = 28;
+            pictureBox12.TabStop = false;
+            pictureBox12.Click += pictureBox12_Click;
+            // 
+            // checkBox12
+            // 
+            checkBox12.AutoSize = true;
+            checkBox12.Location = new Point(302, 249);
+            checkBox12.Name = "checkBox12";
+            checkBox12.Size = new Size(22, 21);
+            checkBox12.TabIndex = 27;
+            checkBox12.UseVisualStyleBackColor = true;
+            checkBox12.CheckedChanged += checkBox12_CheckedChanged;
+            // 
             // comboBox10
             // 
             comboBox10.FormattingEnabled = true;
             comboBox10.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            comboBox10.Location = new Point(62, 495);
+            comboBox10.Location = new Point(75, 534);
             comboBox10.Name = "comboBox10";
             comboBox10.Size = new Size(42, 33);
             comboBox10.TabIndex = 25;
@@ -409,7 +635,7 @@
             label14.AutoSize = true;
             label14.Font = new Font("Mongolian Baiti", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label14.ForeColor = Color.DarkOrchid;
-            label14.Location = new Point(128, 500);
+            label14.Location = new Point(128, 539);
             label14.Name = "label14";
             label14.Size = new Size(97, 25);
             label14.TabIndex = 26;
@@ -418,7 +644,7 @@
             // pictureBox10
             // 
             pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
-            pictureBox10.Location = new Point(224, 482);
+            pictureBox10.Location = new Point(237, 524);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(59, 75);
             pictureBox10.TabIndex = 24;
@@ -427,7 +653,7 @@
             // checkBox10
             // 
             checkBox10.AutoSize = true;
-            checkBox10.Location = new Point(289, 501);
+            checkBox10.Location = new Point(302, 539);
             checkBox10.Name = "checkBox10";
             checkBox10.Size = new Size(22, 21);
             checkBox10.TabIndex = 23;
@@ -437,7 +663,7 @@
             // 
             comboBox9.FormattingEnabled = true;
             comboBox9.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            comboBox9.Location = new Point(62, 393);
+            comboBox9.Location = new Point(75, 456);
             comboBox9.Name = "comboBox9";
             comboBox9.Size = new Size(42, 33);
             comboBox9.TabIndex = 21;
@@ -447,7 +673,7 @@
             label13.AutoSize = true;
             label13.Font = new Font("Mongolian Baiti", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label13.ForeColor = Color.DarkOrchid;
-            label13.Location = new Point(128, 398);
+            label13.Location = new Point(128, 461);
             label13.Name = "label13";
             label13.Size = new Size(93, 25);
             label13.TabIndex = 22;
@@ -456,7 +682,7 @@
             // pictureBox9
             // 
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(224, 380);
+            pictureBox9.Location = new Point(237, 443);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(59, 75);
             pictureBox9.TabIndex = 20;
@@ -465,7 +691,7 @@
             // checkBox9
             // 
             checkBox9.AutoSize = true;
-            checkBox9.Location = new Point(289, 399);
+            checkBox9.Location = new Point(302, 461);
             checkBox9.Name = "checkBox9";
             checkBox9.Size = new Size(22, 21);
             checkBox9.TabIndex = 19;
@@ -475,26 +701,27 @@
             // 
             comboBox8.FormattingEnabled = true;
             comboBox8.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            comboBox8.Location = new Point(64, 301);
+            comboBox8.Location = new Point(75, 376);
             comboBox8.Name = "comboBox8";
             comboBox8.Size = new Size(42, 33);
             comboBox8.TabIndex = 17;
+            comboBox8.SelectedIndexChanged += comboBox8_SelectedIndexChanged;
             // 
             // label12
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Mongolian Baiti", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label12.ForeColor = Color.DarkOrchid;
-            label12.Location = new Point(155, 311);
+            label12.Location = new Point(153, 386);
             label12.Name = "label12";
-            label12.Size = new Size(47, 25);
+            label12.Size = new Size(45, 25);
             label12.TabIndex = 18;
-            label12.Text = "Eic";
+            label12.Text = "Eis";
             // 
             // pictureBox8
             // 
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(222, 288);
+            pictureBox8.Location = new Point(237, 362);
             pictureBox8.Name = "pictureBox8";
             pictureBox8.Size = new Size(59, 75);
             pictureBox8.TabIndex = 16;
@@ -503,7 +730,7 @@
             // checkBox8
             // 
             checkBox8.AutoSize = true;
-            checkBox8.Location = new Point(287, 307);
+            checkBox8.Location = new Point(302, 382);
             checkBox8.Name = "checkBox8";
             checkBox8.Size = new Size(22, 21);
             checkBox8.TabIndex = 15;
@@ -513,7 +740,7 @@
             // 
             comboBox7.FormattingEnabled = true;
             comboBox7.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            comboBox7.Location = new Point(75, 179);
+            comboBox7.Location = new Point(75, 164);
             comboBox7.Name = "comboBox7";
             comboBox7.Size = new Size(42, 33);
             comboBox7.TabIndex = 13;
@@ -523,7 +750,7 @@
             label11.AutoSize = true;
             label11.Font = new Font("Mongolian Baiti", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label11.ForeColor = Color.DarkOrchid;
-            label11.Location = new Point(141, 184);
+            label11.Location = new Point(141, 164);
             label11.Name = "label11";
             label11.Size = new Size(61, 25);
             label11.TabIndex = 14;
@@ -532,7 +759,7 @@
             // pictureBox7
             // 
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(237, 166);
+            pictureBox7.Location = new Point(237, 142);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(59, 75);
             pictureBox7.TabIndex = 12;
@@ -541,7 +768,7 @@
             // checkBox7
             // 
             checkBox7.AutoSize = true;
-            checkBox7.Location = new Point(302, 185);
+            checkBox7.Location = new Point(302, 168);
             checkBox7.Name = "checkBox7";
             checkBox7.Size = new Size(22, 21);
             checkBox7.TabIndex = 11;
@@ -589,8 +816,8 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Monotype Corsiva", 14F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.DarkOrchid;
-            label4.Location = new Point(128, 244);
+            label4.ForeColor = Color.DarkBlue;
+            label4.Location = new Point(111, 316);
             label4.Name = "label4";
             label4.Size = new Size(125, 34);
             label4.TabIndex = 6;
@@ -600,7 +827,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Monotype Corsiva", 14F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.DarkOrchid;
+            label3.ForeColor = Color.DarkBlue;
             label3.Location = new Point(75, 22);
             label3.Name = "label3";
             label3.Size = new Size(103, 34);
@@ -616,49 +843,66 @@
             panel5.Size = new Size(38, 650);
             panel5.TabIndex = 0;
             // 
-            // comboBox11
+            // richTextBox1
             // 
-            comboBox11.FormattingEnabled = true;
-            comboBox11.Items.AddRange(new object[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" });
-            comboBox11.Location = new Point(338, 343);
-            comboBox11.Name = "comboBox11";
-            comboBox11.Size = new Size(42, 33);
-            comboBox11.TabIndex = 23;
+            richTextBox1.BackColor = Color.WhiteSmoke;
+            richTextBox1.Location = new Point(462, 174);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(457, 375);
+            richTextBox1.TabIndex = 3;
+            richTextBox1.Text = "";
             // 
-            // label15
+            // button1
             // 
-            label15.AutoSize = true;
-            label15.Font = new Font("Mongolian Baiti", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label15.ForeColor = Color.DarkOrchid;
-            label15.Location = new Point(170, 346);
-            label15.Name = "label15";
-            label15.Size = new Size(114, 25);
-            label15.TabIndex = 24;
-            label15.Text = "Sandwich";
+            button1.BackColor = Color.DarkBlue;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Segoe UI Black", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.Pink;
+            button1.Location = new Point(471, 583);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 46);
+            button1.TabIndex = 4;
+            button1.Text = "Order";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
-            // pictureBox11
+            // button2
             // 
-            pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new Point(85, 334);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(72, 75);
-            pictureBox11.TabIndex = 22;
-            pictureBox11.TabStop = false;
+            button2.BackColor = Color.DarkBlue;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Segoe UI Black", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.Pink;
+            button2.Location = new Point(635, 583);
+            button2.Name = "button2";
+            button2.Size = new Size(112, 46);
+            button2.TabIndex = 5;
+            button2.Text = "Reset";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
-            // checkBox11
+            // button3
             // 
-            checkBox11.AutoSize = true;
-            checkBox11.Location = new Point(46, 343);
-            checkBox11.Name = "checkBox11";
-            checkBox11.Size = new Size(22, 21);
-            checkBox11.TabIndex = 21;
-            checkBox11.UseVisualStyleBackColor = true;
+            button3.BackColor = Color.DarkBlue;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Segoe UI Black", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.ForeColor = Color.Pink;
+            button3.Location = new Point(807, 583);
+            button3.Name = "button3";
+            button3.Size = new Size(112, 46);
+            button3.TabIndex = 6;
+            button3.Text = "Bezahlen";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1326, 777);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(richTextBox1);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -670,6 +914,7 @@
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -677,12 +922,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ResumeLayout(false);
         }
 
@@ -741,5 +986,25 @@
         private Label label15;
         private PictureBox pictureBox11;
         private CheckBox checkBox11;
+        private ComboBox comboBox12;
+        private Label label16;
+        private PictureBox pictureBox12;
+        private CheckBox checkBox12;
+        private RichTextBox richTextBox1;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Label label17;
+        private Label label22;
+        private Label label21;
+        private Label label20;
+        private Label label19;
+        private Label label18;
+        private Label label26;
+        private Label label25;
+        private Label label24;
+        private Label label23;
+        private Label label28;
+        private Label label27;
     }
 }
