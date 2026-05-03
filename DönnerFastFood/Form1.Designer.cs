@@ -897,12 +897,16 @@
             // 
             // button4
             // 
-            button4.Location = new Point(635, 692);
+            button4.BackColor = Color.PowderBlue;
+            button4.FlatStyle = FlatStyle.System;
+            button4.Font = new Font("Segoe UI Symbol", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.ForeColor = SystemColors.ActiveCaption;
+            button4.Location = new Point(635, 671);
             button4.Name = "button4";
-            button4.Size = new Size(112, 34);
+            button4.Size = new Size(126, 55);
             button4.TabIndex = 7;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            button4.Text = "Report";
+            button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // Form1
